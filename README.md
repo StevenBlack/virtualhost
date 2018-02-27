@@ -3,6 +3,13 @@ Virtualhost Manage Script
 
 Bash Script to allow create or delete apache virtual hosts on Ubuntu on a quick way.
 
+**Take note!**: this repo is a fork of [RoverWire/virtualhost](https://github.com/RoverWire/virtualhost) but that serves a 
+different use case, so this repo diverges from that rather significantly.  Most notably,
+
+* Dropped assumption of PHP.
+* Dropped support for nginx.
+
+
 ## Installation ##
 
 1. Download the script
