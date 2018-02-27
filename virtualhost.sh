@@ -33,7 +33,7 @@ do
 done
 
 if [ "$rootDir" == "" ]; then
-	rootDir=${domain//./}
+	rootDir=$domain
 fi
 
 ### if root dir starts with '/', don't use /var/www as default starting point
