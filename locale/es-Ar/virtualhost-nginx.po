@@ -32,15 +32,15 @@ msgstr "El Dominio ya existe.\\\\nPor favor ingrese otro."
 
 #: virtualhost-nginx.sh:52
 msgid ""
-"ERROR: Not able to write in file $userDir/$rootdir/phpinfo.php. Please check "
+"ERROR: Not able to write in file $userDir/$rootdir/index.html. Please check "
 "permissions."
 msgstr ""
-"ERROR: No se puede escribir el archivo en $userDir/$rootdir/phpinfo.php. Por "
+"ERROR: No se puede escribir el archivo en $userDir/$rootdir/index.html. Por "
 "favor chequee sus permisos."
 
 #: virtualhost-nginx.sh:55
-msgid "Added content to $userDir$rootdir/phpinfo.php."
-msgstr "Agregando contenido a $userDir$rootdir/phpinfo.php."
+msgid "Added content to $userDir$rootdir/index.html."
+msgstr "Agregando contenido a $userDir$rootdir/index.html."
 
 #: virtualhost-nginx.sh:104
 msgid "There is an ERROR create $domain file"

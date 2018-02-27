@@ -31,15 +31,15 @@ msgstr "Este domínio já existe.\\nPor favor, tente outro"
 
 #: virtualhost.sh:56
 msgid ""
-"ERROR: Not able to write in file $userDir/$rootdir/phpinfo.php. Please check "
+"ERROR: Not able to write in file $userDir/$rootdir/index.html. Please check "
 "permissions."
 msgstr ""
-"ERRO: Não é possível escrever no arquivo $userDir/$rootdir/phpinfo.php. Por "
+"ERRO: Não é possível escrever no arquivo $userDir/$rootdir/index.html. Por "
 "favor, verifique as permissões."
 
 #: virtualhost.sh:59
-msgid "Added content to $userDir$rootdir/phpinfo.php."
-msgstr "Conteúdo adicionado ao $userDir$rootdir/phpinfo.php."
+msgid "Added content to $userDir$rootdir/index.html."
+msgstr "Conteúdo adicionado ao $userDir$rootdir/index.html."
 
 #: virtualhost.sh:83
 msgid "There is an ERROR create $domain file"

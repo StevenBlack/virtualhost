@@ -19,10 +19,10 @@ msgstr ""
 msgid "This domain already exists.\\nPlease Try Another one"
 msgstr ""
 #: virtualhost.sh:56
-msgid "ERROR: Not able to write in file $userDir/$rootdir/phpinfo.php. Please check permissions."
+msgid "ERROR: Not able to write in file $userDir/$rootdir/index.html. Please check permissions."
 msgstr ""
 #: virtualhost.sh:59
-msgid "Added content to $userDir$rootdir/phpinfo.php."
+msgid "Added content to $userDir$rootdir/index.html."
 msgstr ""
 #: virtualhost.sh:83
 msgid "There is an ERROR create $domain file"

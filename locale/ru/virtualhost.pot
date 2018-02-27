@@ -20,11 +20,11 @@ msgstr "Пожалуйста укажите доменное имя. Напри�
 msgid "This domain already exists.\\nPlease Try Another one"
 msgstr "Это доменное имя уже используется, пожалуйста укажите другое."
 #: virtualhost.sh:56
-msgid "ERROR: Not able to write in file $userDir/$rootdir/phpinfo.php. Please check permissions."
-msgstr "ОШИБКА: Нельзя выполнить запись в $userDir/$rootdir/phpinfo.php. Проверьте права."
+msgid "ERROR: Not able to write in file $userDir/$rootdir/index.html. Please check permissions."
+msgstr "ОШИБКА: Нельзя выполнить запись в $userDir/$rootdir/index.html. Проверьте права."
 #: virtualhost.sh:59
-msgid "Added content to $userDir$rootdir/phpinfo.php."
-msgstr "Контент добавлен в $userDir$rootdir/phpinfo.php."
+msgid "Added content to $userDir$rootdir/index.html."
+msgstr "Контент добавлен в $userDir$rootdir/index.html."
 #: virtualhost.sh:83
 msgid "There is an ERROR create $domain file"
 msgstr "Ошибка при создании $domain"
