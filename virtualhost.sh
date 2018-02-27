@@ -73,6 +73,7 @@ if [ "$action" == 'create' ]
 			ServerAdmin $email
 			ServerName $domain
 			ServerAlias $domain
+            ServerAlias www.$domain
 			DocumentRoot $rootDir
 			<Directory />
 				AllowOverride All
@@ -94,7 +95,7 @@ if [ "$action" == 'create' ]
 		fi
 
 		### Add domain in /etc/hosts
-		if ! echo "127.0.0.1	$domain" >> /etc/hosts
+		if ! echo "127.0.0.1	$domain www.$domain" >> /etc/hosts
 		then
 			echo $"ERROR: Not able to write in /etc/hosts"
 			exit;
